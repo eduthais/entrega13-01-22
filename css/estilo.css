@@ -1,0 +1,8 @@
+body {
+  background-color: bisque; }
+
+.padre .hijo1 {
+  background-color: brown; }
+
+.padre .hijo2 {
+  color: chocolate; }

@@ -1,0 +1,16 @@
+body{
+    background-color: bisque;
+}
+.padre{
+    .hijo1{
+        background-color: brown;
+    }
+    .hijo2{
+        color: chocolate;
+    }
+}
+@mixin cuadros ($bg,$fs,$d) {
+    background-color: crimson;
+    font-size: medium;
+    display: grid;
+}
